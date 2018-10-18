@@ -9,18 +9,18 @@
   
   <title>agc_D口胡记 | Chino!</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="AGC_D口胡记 新坑。。 感觉agc题质量不错啊 比TC题好懂多了 已完成[6/27]…">
+  <meta name="description" content="AGC_D练习记 By acheing">
 <meta name="keywords" content="Atcoder">
 <meta property="og:type" content="article">
 <meta property="og:title" content="agc_D口胡记">
 <meta property="og:url" content="http://yoursite.com/2018/10/03/agc-D/index.html">
 <meta property="og:site_name" content="Chino!">
-<meta property="og:description" content="AGC_D口胡记 新坑。。 感觉agc题质量不错啊 比TC题好懂多了 已完成[6/27]…">
+<meta property="og:description" content="AGC_D练习记 By acheing">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-10-14T10:29:35.885Z">
+<meta property="og:updated_time" content="2018-10-18T11:10:26.839Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="agc_D口胡记">
-<meta name="twitter:description" content="AGC_D口胡记 新坑。。 感觉agc题质量不错啊 比TC题好懂多了 已完成[6/27]…">
+<meta name="twitter:description" content="AGC_D练习记 By acheing">
   
     <link rel="alternative" href="/atom.xml" title="Chino!" type="application/atom+xml">
   
@@ -177,7 +177,7 @@
                 
                 <section class="switch-part switch-part2">
                     <div class="widget tagcloud" id="js-tagcloud">
-                        <a href="/tags/Atcoder/" style="font-size: 10px;">Atcoder</a> <a href="/tags/TCO/" style="font-size: 10px;">TCO</a> <a href="/tags/动态规划-树状数组-noi/" style="font-size: 10px;">动态规划 树状数组 noi</a>
+                        <a href="/tags/Atcoder/" style="font-size: 10px;">Atcoder</a> <a href="/tags/TCO/" style="font-size: 10px;">TCO</a> <a href="/tags/noi/" style="font-size: 10px;">noi</a> <a href="/tags/动态规划/" style="font-size: 10px;">动态规划</a> <a href="/tags/树状数组/" style="font-size: 10px;">树状数组</a>
                     </div>
                 </section>
                 
@@ -270,19 +270,20 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-        <h1 id="agc_d口胡记"><a class="markdownIt-Anchor" href="#agc_d口胡记"></a> AGC_D口胡记</h1>
+        <h1 id="agc_d练习记"><a class="markdownIt-Anchor" href="#agc_d练习记"></a> AGC_D练习记</h1>
+<p><strong>By acheing</strong></p>
+<a id="more"></a> 
 <p>新坑。。</p>
 <p>感觉agc题质量不错啊</p>
 <p><s>比TC题好懂多了</s></p>
-<p>已完成[6/27]…</p>
-<a id="more"></a> 
+<p>已完成[12/28]…</p>
 <h2 id="agc001"><a class="markdownIt-Anchor" href="#agc001"></a> AGC001</h2>
 <p>考虑先自己手算几个数据，对字符一样的位置连边。</p>
 <p>发现长度为奇数的最多只有两个，且只能在队头和队尾。</p>
 <p>构造一下就行了。</p>
 <h2 id="agc002"><a class="markdownIt-Anchor" href="#agc002"></a> AGC002</h2>
 <p>本蒟蒻只想出了<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>O</mi><mo>(</mo><mi>n</mi><mi>l</mi><mi>o</mi><msubsup><mi>g</mi><mn>2</mn><mn>2</mn></msubsup><mi>n</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">O(nlog^2_2n)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.8141079999999999em;"></span><span class="strut bottom" style="height:1.064108em;vertical-align:-0.25em;"></span><span class="base"><span class="mord mathit" style="margin-right:0.02778em;">O</span><span class="mopen">(</span><span class="mord mathit">n</span><span class="mord mathit" style="margin-right:0.01968em;">l</span><span class="mord mathit">o</span><span class="mord"><span class="mord mathit" style="margin-right:0.03588em;">g</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-2.4518920000000004em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.24810799999999997em;"></span></span></span></span></span><span class="mord mathit">n</span><span class="mclose">)</span></span></span></span>的可持久化并查集做法。。</p>
-<p><s>说得好像你会写一样可持久化并查集</s></p>
+<p><s>说得好像你会写可持久化并查集一样</s></p>
 <p>考虑整体二分</p>
 <p>每次维护一个三元组<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>(</mo><mi>l</mi><mo separator="true">,</mo><mi>r</mi><mo separator="true">,</mo><mi>S</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">(l,r,S)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.75em;"></span><span class="strut bottom" style="height:1em;vertical-align:-0.25em;"></span><span class="base"><span class="mopen">(</span><span class="mord mathit" style="margin-right:0.01968em;">l</span><span class="mpunct">,</span><span class="mord rule" style="margin-right:0.16666666666666666em;"></span><span class="mord mathit" style="margin-right:0.02778em;">r</span><span class="mpunct">,</span><span class="mord rule" style="margin-right:0.16666666666666666em;"></span><span class="mord mathit" style="margin-right:0.05764em;">S</span><span class="mclose">)</span></span></span></span>表示S中的ans在<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>[</mo><mi>l</mi><mo separator="true">,</mo><mi>r</mi><mo>]</mo></mrow><annotation encoding="application/x-tex">[l,r]</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.75em;"></span><span class="strut bottom" style="height:1em;vertical-align:-0.25em;"></span><span class="base"><span class="mopen">[</span><span class="mord mathit" style="margin-right:0.01968em;">l</span><span class="mpunct">,</span><span class="mord rule" style="margin-right:0.16666666666666666em;"></span><span class="mord mathit" style="margin-right:0.02778em;">r</span><span class="mclose">]</span></span></span></span>之间</p>
 <p>二分一个mid</p>
@@ -307,6 +308,37 @@
 s-235,486,-235,486c-2.7,4.7,-9,7,-19,7c-6,0,-10,-1,-12,-3s-194,-422,-194,-422
 s-65,47,-65,47z M834 80H400000v40H845z"/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.08494599999999997em;"></span></span></span></span></span></span></span>的质数以及他们的平方。</p>
 <p>对于每个数，对前面的数暴力试除即可。</p>
+<h2 id="agc004"><a class="markdownIt-Anchor" href="#agc004"></a> AGC004</h2>
+<p>水题，首先1必须连1，别的贪心就可以了。</p>
+<h2 id="agc005"><a class="markdownIt-Anchor" href="#agc005"></a> AGC005</h2>
+<p>神题啊！！<br>
+窝只想到了可以容斥DP，再看成个二分图。。然后就不会了<br>
+其实这个二分图很特殊，每个点度为0,1,2<br>
+这有什么用呢？<br>
+这样的话我们就可以把它看成若干条链，DP一下就行了！<br>
+注意特判每条链最后一个点的特殊情况。</p>
+<h2 id="agc006"><a class="markdownIt-Anchor" href="#agc006"></a> AGC006</h2>
+<p>又是一道神题。。<br>
+我真是菜到不行。。。<br>
+考虑二分答案，将序列里比mid大的设为1，比mid小的设为0<br>
+然后一个格子的0/1就是这个格子下面三个格子的众数。<br>
+然后你会发现一些性质<br>
+设<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>a</mi><mo>[</mo><mi>i</mi><mo>]</mo></mrow><annotation encoding="application/x-tex">a[i]</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.75em;"></span><span class="strut bottom" style="height:1em;vertical-align:-0.25em;"></span><span class="base"><span class="mord mathit">a</span><span class="mopen">[</span><span class="mord mathit">i</span><span class="mclose">]</span></span></span></span>表示第i格是0/1</p>
+<ol>
+<li>若<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>a</mi><mo>[</mo><mi>i</mi><mo>]</mo><mo>=</mo><mi>a</mi><mo>[</mo><mi>i</mi><mo>+</mo><mn>1</mn><mo>]</mo><mo>=</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">a[i]=a[i+1]=1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.75em;"></span><span class="strut bottom" style="height:1em;vertical-align:-0.25em;"></span><span class="base"><span class="mord mathit">a</span><span class="mopen">[</span><span class="mord mathit">i</span><span class="mclose">]</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mord mathit">a</span><span class="mopen">[</span><span class="mord mathit">i</span><span class="mord rule" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mord rule" style="margin-right:0.2222222222222222em;"></span><span class="mord">1</span><span class="mclose">]</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mord">1</span></span></span></span>那么a[i]上面的所有格子都是1，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>a</mi><mo>[</mo><mi>i</mi><mo>+</mo><mn>1</mn><mo>]</mo></mrow><annotation encoding="application/x-tex">a[i+1]</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.75em;"></span><span class="strut bottom" style="height:1em;vertical-align:-0.25em;"></span><span class="base"><span class="mord mathit">a</span><span class="mopen">[</span><span class="mord mathit">i</span><span class="mord rule" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mord rule" style="margin-right:0.2222222222222222em;"></span><span class="mord">1</span><span class="mclose">]</span></span></span></span>上面的所有格子也都是1</li>
+<li>若a中构成了一个01交替序列，则在a上面也不断反向交替。<br>
+然后一顿操作就可以了。</li>
+</ol>
+<h2 id="agc009"><a class="markdownIt-Anchor" href="#agc009"></a> AGC009</h2>
+<p><strong>我好菜啊。。。</strong><br>
+根本想不到。。<br>
+对每个点baoyi标一个<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>v</mi><mo>[</mo><mi>i</mi><mo>]</mo></mrow><annotation encoding="application/x-tex">v[i]</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.75em;"></span><span class="strut bottom" style="height:1em;vertical-align:-0.25em;"></span><span class="base"><span class="mord mathit" style="margin-right:0.03588em;">v</span><span class="mopen">[</span><span class="mord mathit">i</span><span class="mclose">]</span></span></span></span><br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>v</mi><mo>[</mo><mi>i</mi><mo>]</mo></mrow><annotation encoding="application/x-tex">v[i]</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.75em;"></span><span class="strut bottom" style="height:1em;vertical-align:-0.25em;"></span><span class="base"><span class="mord mathit" style="margin-right:0.03588em;">v</span><span class="mopen">[</span><span class="mord mathit">i</span><span class="mclose">]</span></span></span></span>表示i点在点分树中以i为根的子树的深度<br>
+考虑这个东西在原树中有什么性质？<br>
+手模一下会发现，对于两个<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>v</mi></mrow><annotation encoding="application/x-tex">v</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.43056em;"></span><span class="strut bottom" style="height:0.43056em;vertical-align:0em;"></span><span class="base"><span class="mord mathit" style="margin-right:0.03588em;">v</span></span></span></span>相同的点，他们的路径上一定有一个<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>v</mi><mo>[</mo><mi>k</mi><mo>]</mo><mo>&gt;</mo><mi>v</mi></mrow><annotation encoding="application/x-tex">v[k]&gt;v</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.75em;"></span><span class="strut bottom" style="height:1em;vertical-align:-0.25em;"></span><span class="base"><span class="mord mathit" style="margin-right:0.03588em;">v</span><span class="mopen">[</span><span class="mord mathit" style="margin-right:0.03148em;">k</span><span class="mclose">]</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mrel">&gt;</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mord mathit" style="margin-right:0.03588em;">v</span></span></span></span><br>
+这个<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>v</mi><mo>[</mo><mi>k</mi><mo>]</mo></mrow><annotation encoding="application/x-tex">v[k]</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.75em;"></span><span class="strut bottom" style="height:1em;vertical-align:-0.25em;"></span><span class="base"><span class="mord mathit" style="margin-right:0.03588em;">v</span><span class="mopen">[</span><span class="mord mathit" style="margin-right:0.03148em;">k</span><span class="mclose">]</span></span></span></span>的意义就是在点分树上k是这两个点的祖先。<br>
+对每个点贪心一下就行了！<br>
+细节神烦。。</p>
 <h2 id="agc021"><a class="markdownIt-Anchor" href="#agc021"></a> AGC021</h2>
 <p>考虑DP<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>f</mi><mo>[</mo><mi>i</mi><mo>]</mo><mo>[</mo><mi>j</mi><mo>]</mo><mo>[</mo><mi>k</mi><mo>]</mo></mrow><annotation encoding="application/x-tex">f[i][j][k]</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.75em;"></span><span class="strut bottom" style="height:1em;vertical-align:-0.25em;"></span><span class="base"><span class="mord mathit" style="margin-right:0.10764em;">f</span><span class="mopen">[</span><span class="mord mathit">i</span><span class="mclose">]</span><span class="mopen">[</span><span class="mord mathit" style="margin-right:0.05724em;">j</span><span class="mclose">]</span><span class="mopen">[</span><span class="mord mathit" style="margin-right:0.03148em;">k</span><span class="mclose">]</span></span></span></span>表示对于区间<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>[</mo><mi>i</mi><mo separator="true">,</mo><mi>j</mi><mo>]</mo></mrow><annotation encoding="application/x-tex">[i,j]</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.75em;"></span><span class="strut bottom" style="height:1em;vertical-align:-0.25em;"></span><span class="base"><span class="mopen">[</span><span class="mord mathit">i</span><span class="mpunct">,</span><span class="mord rule" style="margin-right:0.16666666666666666em;"></span><span class="mord mathit" style="margin-right:0.05724em;">j</span><span class="mclose">]</span></span></span></span>，用了k次变换后的minans</p>
 <p>考虑i是否与j匹配，转移即可。</p>
@@ -324,9 +356,17 @@ s-65,47,-65,47z M834 80H400000v40H845z"/></svg></span></span></span><span class=
 <p>那么对于一个<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>l</mi><mo>[</mo><mi>i</mi><mo>]</mo><mo>=</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">l[i]=1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.75em;"></span><span class="strut bottom" style="height:1em;vertical-align:-0.25em;"></span><span class="base"><span class="mord mathit" style="margin-right:0.01968em;">l</span><span class="mopen">[</span><span class="mord mathit">i</span><span class="mclose">]</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mord">1</span></span></span></span>的（表示从右往左走后下次上车往右走）i，我们都可以把她跟一个<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>r</mi><mo>[</mo><mi>i</mi><mo>]</mo><mo>=</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">r[i]=1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.75em;"></span><span class="strut bottom" style="height:1em;vertical-align:-0.25em;"></span><span class="base"><span class="mord mathit" style="margin-right:0.02778em;">r</span><span class="mopen">[</span><span class="mord mathit">i</span><span class="mclose">]</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mord">1</span></span></span></span>的匹配。每次匹配后ans减去<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2</mn><mo>∗</mo><mi>L</mi></mrow><annotation encoding="application/x-tex">2*L</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.68333em;"></span><span class="strut bottom" style="height:0.68333em;vertical-align:0em;"></span><span class="base"><span class="mord">2</span><span class="mord rule" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∗</span><span class="mord rule" style="margin-right:0.2222222222222222em;"></span><span class="mord mathit">L</span></span></span></span></p>
 <p>但还有一个情况，最后一个点要从右往左走，ans要加上<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2</mn><mo>∗</mo><mi>L</mi></mrow><annotation encoding="application/x-tex">2*L</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.68333em;"></span><span class="strut bottom" style="height:0.68333em;vertical-align:0em;"></span><span class="base"><span class="mord">2</span><span class="mord rule" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∗</span><span class="mord rule" style="margin-right:0.2222222222222222em;"></span><span class="mord mathit">L</span></span></span></span></p>
 <p>具体的还是看代码吧。。</p>
+<h2 id="agc026"><a class="markdownIt-Anchor" href="#agc026"></a> AGC026</h2>
+<p>我们可以发现一个性质，若有一行有两个相同颜色的块，那么下一行只有一种放法<br>
+否则下一行有两种方法。<br>
+考虑分治：<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>s</mi><mi>o</mi><mi>l</mi><mi>v</mi><mi>e</mi><mo>(</mo><mi>l</mi><mo separator="true">,</mo><mi>r</mi><mo separator="true">,</mo><mi>l</mi><mi>i</mi><mi>m</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">solve(l,r,lim)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.75em;"></span><span class="strut bottom" style="height:1em;vertical-align:-0.25em;"></span><span class="base"><span class="mord mathit">s</span><span class="mord mathit">o</span><span class="mord mathit" style="margin-right:0.01968em;">l</span><span class="mord mathit" style="margin-right:0.03588em;">v</span><span class="mord mathit">e</span><span class="mopen">(</span><span class="mord mathit" style="margin-right:0.01968em;">l</span><span class="mpunct">,</span><span class="mord rule" style="margin-right:0.16666666666666666em;"></span><span class="mord mathit" style="margin-right:0.02778em;">r</span><span class="mpunct">,</span><span class="mord rule" style="margin-right:0.16666666666666666em;"></span><span class="mord mathit" style="margin-right:0.01968em;">l</span><span class="mord mathit">i</span><span class="mord mathit">m</span><span class="mclose">)</span></span></span></span>表示l~r中的塔都比lim高的方案（分为有相同颜色和没有相同颜色两类）<br>
+算一下答案就可以了。</p>
 <h2 id="agc027"><a class="markdownIt-Anchor" href="#agc027"></a> AGC027</h2>
 <p>对原图黑白染色，对每条黑对角线选个质数做权值，每个黑点的权值为两个对角线上的权值的积，白点的权值为周围几个黑点的lcm+1.</p>
 <p>可以证明，这样的图的点的权值是小于题目限制的。</p>
+<h2 id="agc028"><a class="markdownIt-Anchor" href="#agc028"></a> AGC028</h2>
+<p>设<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>d</mi><mi>p</mi><mo>[</mo><mi>i</mi><mo>]</mo><mo>[</mo><mi>j</mi><mo>]</mo></mrow><annotation encoding="application/x-tex">dp[i][j]</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.75em;"></span><span class="strut bottom" style="height:1em;vertical-align:-0.25em;"></span><span class="base"><span class="mord mathit">d</span><span class="mord mathit">p</span><span class="mopen">[</span><span class="mord mathit">i</span><span class="mclose">]</span><span class="mopen">[</span><span class="mord mathit" style="margin-right:0.05724em;">j</span><span class="mclose">]</span></span></span></span>表示i到j的点中，<strong>组成了一个连通块</strong>的方案数<br>
+容斥一下就可以了。</p>
 
       
     </div>
@@ -338,7 +378,7 @@ s-65,47,-65,47z M834 80H400000v40H845z"/></svg></span></span></span><span class=
         <p><span>本文标题:</span><a  href="/2018/10/03/agc-D/">agc_D口胡记</a></p>
         <p><span>文章作者:</span><a  href="/" title="访问 Acheing 的个人博客">Acheing</a></p>
         <p><span>发布时间:</span>2018年10月03日 - 21时44分</p>
-        <p><span>最后更新:</span>2018年10月14日 - 18时29分</p>
+        <p><span>最后更新:</span>2018年10月18日 - 19时10分</p>
         <p>
             <span>原始链接:</span><a class="post-url" href="/2018/10/03/agc-D/" title="agc_D口胡记">http://yoursite.com/2018/10/03/agc-D/</a>
             <span class="copy-path" data-clipboard-text="原文: http://yoursite.com/2018/10/03/agc-D/　　作者: Acheing" title=""></span>
@@ -375,7 +415,7 @@ s-65,47,-65,47z M834 80H400000v40H845z"/></svg></span></span></span><span class=
 
     <div id="toc" class="toc-article">
     <strong class="toc-title">文章目录</strong>
-    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#agc_d口胡记"><span class="toc-number">1.</span> <span class="toc-text"> AGC_D口胡记</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#agc001"><span class="toc-number">1.1.</span> <span class="toc-text"> AGC001</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#agc002"><span class="toc-number">1.2.</span> <span class="toc-text"> AGC002</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#agc003"><span class="toc-number">1.3.</span> <span class="toc-text"> AGC003</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#agc021"><span class="toc-number">1.4.</span> <span class="toc-text"> AGC021</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#agc022"><span class="toc-number">1.5.</span> <span class="toc-text"> AGC022</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#agc027"><span class="toc-number">1.6.</span> <span class="toc-text"> AGC027</span></a></li></ol></li></ol>
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#agc_d练习记"><span class="toc-number">1.</span> <span class="toc-text"> AGC_D练习记</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#agc001"><span class="toc-number">1.1.</span> <span class="toc-text"> AGC001</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#agc002"><span class="toc-number">1.2.</span> <span class="toc-text"> AGC002</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#agc003"><span class="toc-number">1.3.</span> <span class="toc-text"> AGC003</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#agc004"><span class="toc-number">1.4.</span> <span class="toc-text"> AGC004</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#agc005"><span class="toc-number">1.5.</span> <span class="toc-text"> AGC005</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#agc006"><span class="toc-number">1.6.</span> <span class="toc-text"> AGC006</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#agc009"><span class="toc-number">1.7.</span> <span class="toc-text"> AGC009</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#agc021"><span class="toc-number">1.8.</span> <span class="toc-text"> AGC021</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#agc022"><span class="toc-number">1.9.</span> <span class="toc-text"> AGC022</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#agc026"><span class="toc-number">1.10.</span> <span class="toc-text"> AGC026</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#agc027"><span class="toc-number">1.11.</span> <span class="toc-text"> AGC027</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#agc028"><span class="toc-number">1.12.</span> <span class="toc-text"> AGC028</span></a></li></ol></li></ol>
 </div>
 <style>
     .left-col .switch-btn {
